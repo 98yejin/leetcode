@@ -12,7 +12,10 @@ Constraints
 - 0 <= key <= 104
 - 0 <= value <= 105
 
-### Hashmap and Doubly Linked list
+
+## Approach
+
+### [Hashmap and Doubly Linked list](/Algorithms/Linked%20List/146.%20LRU%20Cache/hash-doubly_linked_list.py)
 
 ![image](/Algorithms/Linked%20List/146.%20LRU%20Cache/images/146-1.jpg)
 
@@ -53,7 +56,7 @@ Doubly linked lists make these operations fast and straightforward.
   - While a doubly linked list is a suitable data structure for implementing an LRU cache, it's essential to note that combining it with a hash table or dictionary for fast key-based access is a common practice to achieve the overall efficiency needed for an LRU cache.
   - This combination allows you to efficiently perform cache operations like inserting, accessing, and evicting items while preserving the LRU order.
 
-### collections.OrderedDict
+### [collections.OrderedDict](/Algorithms/Linked%20List/146.%20LRU%20Cache/ordered_dict.py)
 
 > Return an instance of a dict subclass that has methods specialized for rearranging dictionary order.
 

@@ -1,4 +1,4 @@
-# 799. Champagne Tower
+# [799. Champagne Tower](https://leetcode.com/problems/champagne-tower/)
 
 1. initialize a 2D array
 

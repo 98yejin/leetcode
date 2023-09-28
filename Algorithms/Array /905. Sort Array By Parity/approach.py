@@ -7,7 +7,7 @@ class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
         return [num for num in nums if not num%2] + [num for num in nums if num%2]
     
-    # two pointers
+    # two pointers (in-place, quicksort)
     def sortArrayByParity(self, nums: List[int]) -> List[int]:        
         left, right = 0, len(nums) - 1
         while left < right:

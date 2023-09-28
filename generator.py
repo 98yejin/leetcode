@@ -27,9 +27,12 @@ for root, dirs, files in os.walk(algorithms_directory):
             
             problems_by_category[category].append(problem_link)
 
+def extract_number(filename):
+    return int(filename.strip('[]').split('.')[0])
+
 for category, problems in problems_by_category.items():
     readme_content += f"### {category}\n\n"
-    readme_content += '\n'.join([f"- {problem_link}" for problem_link in problems]) + '\n\n'
+    readme_content += '\n'.join([f"- {problem_link}" for problem_link in sorted(problems, key=extract_number)]) + '\n\n'
 
 with open(readme_path, 'w') as file:
     file.write(readme_content)

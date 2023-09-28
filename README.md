@@ -8,6 +8,7 @@
 - [27. Remove Element](/Algorithms/Array%20/27.%20Remove%20Element/README.md)
 - [169. Majority Element](/Algorithms/Array%20/169.%20Majority%20Element/README.md)
 - [287. Find the Duplicate Number](/Algorithms/Array%20/287.%20Find%20the%20Duplicate%20Number/README.md)
+- [905. Sort Array By Parity](/Algorithms/Array%20/905.%20Sort%20Array%20By%20Parity/README.md)
 - [1048. Longest String Chain](/Algorithms/Array%20/1048.%20Longest%20String%20Chain/README.md)
 
 ### TwoPointers
